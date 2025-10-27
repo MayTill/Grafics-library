@@ -8,21 +8,16 @@
 using namespace std;
 using namespace Gdiplus;
 /*
-	Grafics 1.0.0-alpha-0 Might be unstable.
-	Copyright 2025 "MayTill"
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-*/
+ * Grafics.hpp , library to GUI in C++
+ * Copyright (C) 2025 "MayTill"
+ *
+ * SPDX-License-Identifier: Apache 2.0
+ *
+ * This file is part of the project "Grafics-Library".
+ * See LICENSE file for details.
+ * If you don't get full file get it at 
+ * https://github.com/MayTill/Grafics-library/main/grafics_1.0.0_alpha.hpp
+ */
 // Funckje pomocnicze
 void gcwh(string& a) {
     atomic<bool> inputReady(false);
@@ -201,3 +196,4 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
     return 0;
 }
+
