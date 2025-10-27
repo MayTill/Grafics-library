@@ -16,7 +16,7 @@ using namespace Gdiplus;
  * This file is part of the project "Grafics-Library".
  * See LICENSE file for details.
  * If you don't get full file get it at 
- * https://github.com/MayTill/Grafics-library/main/grafics_1.0.0_alpha.hpp
+ * https://github.com/MayTill/Grafics-library/blob/main/grafics_1.0.0_alpha.hpp
  */
 // Funckje pomocnicze
 void gcwh(string& a) {
@@ -196,4 +196,5 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
     return 0;
 }
+
 
